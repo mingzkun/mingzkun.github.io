@@ -1,0 +1,93 @@
+a{
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+  color: #315353;
+}
+
+/* visited link */
+a:visited {
+  color: darkgreen;
+}
+
+/* mouse over link */
+a:hover {
+  color: #a05ea0;
+}
+
+/* selected link */
+a:active {
+  color: #315353;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  color: #0b1414;
+}
+
+.container{
+    background-color: #C8A2C8;
+    min-height: 100vh;
+    padding: 128px;
+}
+
+@media screen and (max-width: 768px) {
+  .container{
+    padding: 48px;
+  }
+}
+
+.content{
+  max-width: 800px;
+
+}
+
+.name{
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: -8px;
+}
+
+@media screen and (max-width: 768px) {
+  .name{
+    font-size: 40px;
+  }
+}
+
+.job{
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width:200px;
+  height:200px;
+  object-fit:cover;
+  object-position: 20% 10%;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.contact{
+  font-size: 16px;
+  margin-bottom: 32px;
+}
+
+.button{
+  background: #a2c8c8;
+  color: #4b8080;
+  padding: 16px 8px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.about{
+  font-size: 16px;
+  margin-bottom: 16px;
+}
